@@ -4,7 +4,7 @@ if (!BASE) {
   console.error("❌ VITE_API_BASE_URL is not defined in .env");
 }
 
-const BASE_URL = `${BASE || "https://interview-backend-vkln.onrender.com"}/api`;
+const BASE_URL = `${BASE || "https://interview-prep-app-crgh.onrender.com"}/api`;
 
 console.log("BASE_URL:", BASE_URL);
 
