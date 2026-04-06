@@ -18,7 +18,7 @@ let app = express(); // object = {listen}
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://interview-prep-frontend-3vt6.onrender.com"],
+    origin: ["http://localhost:5173", "https://interview-prep-front.onrender.com"],
     credentials: true,
   }),
 );
